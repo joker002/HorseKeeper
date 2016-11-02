@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        
+        <com.example.horsekeeper.view.PieCustumView
+            android:id="@+id/pv_soft_manager" 
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+        
+        
+       <LinearLayout
+           
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/pv_soft_manager" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        
+        <LinearLayout
+            android:gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <View
+                 
+                android:background="#ff000099"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="手机内置空间"
+                />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <View 
+                android:background="#ff00aa00"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="外置存储空间"
+                />
+        </LinearLayout>
+        
+       </LinearLayout>
+    
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical" 
+    >
+       <LinearLayout
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="手机内置空间"
+               />
+           <!--android:secondaryProgress="30" 二级进度条  -->
+           <ProgressBar
+               android:id="@+id/pb_soft_manager_self"
+               android:progressDrawable="@drawable/layer_soft_manager_progress"
+               android:background="#ff0000"                
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:max="100"
+               android:progress="60"
+               style="@android:style/Widget.ProgressBar.Horizontal"
+               />
+           
+           <TextView
+               android:id="@+id/tv_soft_manager_self" 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="可用"
+               android:gravity="right"
+               />
+       
+       </LinearLayout>  
+       
+       <LinearLayout
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="外置存储空间"
+               />
+           
+           <ProgressBar
+               android:id="@+id/pb_soft_manager"
+               android:progressDrawable="@drawable/layer_soft_manager_progress"
+               android:background="#ff0000"
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:max="100"
+               android:progress="60"
+               style="@android:style/Widget.ProgressBar.Horizontal"
+               />
+           
+           <TextView
+               android:id="@+id/tv_soft_manager" 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="可用"
+               android:gravity="right"
+               />
+       
+       </LinearLayout>
+      
+               <View 
+                android:background="#ebeaea"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+      
+       <LinearLayout
+           android:id="@+id/ll_soft_manager_all_soft"
+           
+           android:background="@drawable/selector_press_white_gray"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           
+           android:gravity="center_vertical" 
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           >
+           <TextView
+               android:layout_weight="1" 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="所有软件"
+               />
+
+           <ImageView
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:src="@drawable/ic_arrows_right" />
+
+       </LinearLayout>  
+      
+       <View 
+                android:background="#ebeaea"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+       <LinearLayout
+            android:id="@+id/ll_soft_manager_system_soft"
+           
+           android:background="@drawable/selector_press_white_gray"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           
+           android:gravity="center_vertical" 
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           >
+           <TextView
+               android:layout_weight="1" 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="系统软件"
+               />
+
+           <ImageView
+               
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               
+               android:src="@drawable/ic_arrows_right" />
+
+       </LinearLayout>  
+      
+       <View 
+                android:background="#ebeaea"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+       <LinearLayout
+            android:id="@+id/ll_soft_manager_user_soft"
+           
+           android:background="@drawable/selector_press_white_gray"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           
+           android:gravity="center_vertical" 
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           >
+           <TextView
+               android:layout_weight="1" 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="用户软件"
+               />
+
+           <ImageView
+               
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               
+               android:src="@drawable/ic_arrows_right" />
+
+       </LinearLayout>  
+       
+       
+         
+</LinearLayout>
+
+</LinearLayout>

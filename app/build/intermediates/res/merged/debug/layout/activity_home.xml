@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+    
+    <!--全类名  -->
+        <com.example.horsekeeper.view.HomeArcView 
+            android:id="@+id/hv_home"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+           />
+           
+            <ImageView
+            android:id="@+id/iv_home_score"
+            android:layout_centerInParent="true"    
+            android:layout_height="245dp"
+            android:layout_width="245dp"
+            android:src="@drawable/home_score_pressed_bg"
+            />
+
+            <!--所占百分比  -->
+        <TextView
+            android:id="@+id/tv_home_num"
+            android:textSize="40sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+       
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/tv_home_num"
+            android:layout_alignBottom="@+id/tv_home_num"
+           
+            android:text="%"
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+        <!--加shape  -->
+        <TextView
+             
+             android:background="@drawable/shape_home_speed"
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             
+             android:text="@string/rocket"
+             android:textColor="@color/write" 
+             
+             android:layout_below="@+id/tv_home_num"
+             android:layout_marginTop="10dp"
+                />
+    </RelativeLayout>
+   
+    <include
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"     
+    layout="@layout/layou_home_bottom"
+    />
+    
+</LinearLayout>

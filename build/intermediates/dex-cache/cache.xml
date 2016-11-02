@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_1fd2af93ccabc2de35181288b9f84e0da6ef645d.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\libs\glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\glide-3.6.1_83cea373ee62dcc38236898d4a85f52a57e6bdf8.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_c8b43328d60044f1a6ba20562398f0c6c2c9f488.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_7fb703ad22128e71406f0c75efc6d46f888148ec.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\SDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_2e6f6b0e00917209a205ddb6ca44bd06caf1c3e6.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_a1d6ed5fa61bd3bf4cdf88b2b723a7e678548630.jar" />
+    </item>
+    <item
+        jar="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_2f04d1457fa46263dde34d5c3c5de1606b88eb2e.jar" />
+    </item>
+
+</items>

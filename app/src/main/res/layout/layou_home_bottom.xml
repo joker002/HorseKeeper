@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+     <View 
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ebeaea"
+            />
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+       <!--drawable  -->
+       <!--手机加速  -->
+        <TextView
+            android:id="@+id/tv_rocket" 
+            android:drawableTop="@drawable/icon_rocket"
+            android:text="@string/rocket"
+            style="@style/layout_home_bottom"
+            />
+        
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ebeaea"
+            />
+        
+        <!--软件管理  -->
+        <TextView             
+            android:id="@+id/pv_softmgr"            
+            android:drawableTop="@drawable/icon_softmgr"
+            android:text="@string/softmgr"
+             style="@style/layout_home_bottom"
+            />
+       
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ebeaea"
+            />
+        
+        <!--手机检测  -->
+        <TextView
+             android:id="@+id/tv_icon_phonemgr_home"
+            android:drawableTop="@drawable/icon_phonemgr"
+            android:text="@string/phonemgr"
+             style="@style/layout_home_bottom"
+            />
+    </LinearLayout>
+    
+       <View 
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ebeaea"
+            />
+   
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+        
+        
+        <!--通讯大全  -->
+        <TextView
+            android:id="@+id/tv_telmgr_tel_home" 
+            android:drawableTop="@drawable/icon_telmgr"
+            android:text="@string/telmgr"
+            style="@style/layout_home_bottom"
+            />
+        
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ebeaea"
+            />
+        
+        <!--文件管理  -->
+        <TextView
+            android:id="@+id/tv_filemgr_home" 
+            android:drawableTop="@drawable/icon_filemgr"
+            android:text="@string/filemgr"
+             style="@style/layout_home_bottom"
+            />
+        
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ebeaea"
+            />
+        
+        <!--垃圾清理  -->
+        <TextView
+            android:id="@+id/tv_icon_sdclean_home" 
+            android:drawableTop="@drawable/icon_sdclean"
+            android:text="@string/sdclean"
+            style="@style/layout_home_bottom"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

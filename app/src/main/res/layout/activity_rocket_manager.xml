@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:gravity="center"
+        android:text="HUAWEI" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<TextView
+     android:gravity="center"
+    android:text="HUAWEI GRA-UL10 Android5.0.1" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+<ProgressBar
+    style="@android:style/Widget.ProgressBar.Horizontal"
+    android:layout_margin="10dp"
+     android:progress="50"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:gravity="right"
+    > 
+<TextView
+    android:text="已用内存:" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:text="2.33G/2.73G" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    />
+</LinearLayout>
+<Button
+    android:id="@+id/btn_rocket_manager_clear"
+    android:text="一键清除" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+<LinearLayout 
+     android:id="@+id/ll_rocket_loading" 
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:gravity="center"
+    >
+    <ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
+
+<ListView
+    android:visibility="gone"
+    android:id="@+id/lv_rocket" 
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    ></ListView>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <CheckBox
+        
+        android:id="@+id/cb_rocket_clear_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btn_rocket_jump"
+        android:text="显示系统进程"
+        android:layout_weight="1" 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+</LinearLayout>

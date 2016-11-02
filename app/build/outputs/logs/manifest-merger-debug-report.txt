@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:1:1-127:12
+	xmlns:android
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:1:11-69
+	package
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.CAMERA
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:16:5-64
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:18:22-78
+application
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:21:5-126:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\androidSTUDIO\Project\HorseKeeper1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:24:9-41
+	android:allowBackup
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:23:9-45
+	android:theme
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:25:9-62
+activity#com.example.horsekeeper.activity.GuideActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:28:9-35:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:29:13-74
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:31:14-34:29
+action#android.intent.action.MAIN
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.example.horsekeeper.activity.AnimationActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:38:9-41:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:39:13-78
+activity#com.example.horsekeeper.activity.HomeActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:45:9-49:20
+	android:exported
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:46:13-73
+activity#com.example.horsekeeper.activity.TelManagerActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:52:9-55:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:53:13-79
+activity#com.example.horsekeeper.activity.TelManagerShowActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:58:9-61:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:59:13-83
+activity#com.example.horsekeeper.activity.SoftManagerActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:65:13-80
+activity#com.example.horsekeeper.activity.SoftManagerShowActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:70:9-73:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:71:13-84
+activity#com.example.horsekeeper.activity.FileManagerActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:77:13-80
+activity#com.example.horsekeeper.activity.FileManagerShowActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:82:9-85:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:83:13-84
+activity#com.example.horsekeeper.activity.RocketManagerActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:88:9-91:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:89:13-82
+activity#com.example.horsekeeper.activity.RocketManagerShowActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:94:9-97:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:95:13-86
+activity#com.example.horsekeeper.activity.PhoneMgrActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:101:9-104:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:102:13-77
+activity#com.example.horsekeeper.activity.CleanManagerActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:107:9-110:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:108:13-81
+activity#com.example.horsekeeper.activity.SettingActivity
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:113:9-115:25
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:114:13-76
+receiver#com.example.horsekeeper.activity.SettingActivity$StartReceiver
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:118:9-124:20
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:119:13-90
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:121:13-123:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:122:17-78
+	android:name
+		ADDED from E:\androidSTUDIO\Project\HorseKeeper1\app\src\main\AndroidManifest.xml:122:25-76

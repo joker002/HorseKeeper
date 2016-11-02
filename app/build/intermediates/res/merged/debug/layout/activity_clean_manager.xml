@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#00ff00"
+        >
+        <TextView
+            android:id="@+id/tv_clean_size"
+             android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="129.90M"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_clean_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_clean_size"
+            android:layout_toLeftOf="@+id/tv_clean_size"
+            android:text="已发现"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+    
+<ExpandableListView
+    android:groupIndicator="@null"
+    android:id="@+id/elv_clean_list" 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    ></ExpandableListView>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+    <CheckBox
+         android:id="@+id/cb_clean_all" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+         android:id="@+id/btn_clean_list"
+        android:layout_marginLeft="10dp" 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_press_btn"
+        />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.horsekeeper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+    <!--读写sd卡权限  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--拨打电话权限  -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--杀死后台进程  -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <!--手机相机权限  -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!--开机自启动权限  -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+       
+        <!--引导界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.GuideActivity"
+            >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+       <!--动画界面  -->
+        <activity
+            android:name="com.example.horsekeeper.activity.AnimationActivity"
+            >
+        </activity>
+        
+        <!--主界面  -->
+        <!--android:exported="true" 目标可以跳转  -->
+        <activity
+            android:name="com.example.horsekeeper.activity.HomeActivity"
+            android:exported="true"
+            >
+        </activity>
+        
+        <!--通讯大全 主界面  -->
+        <activity
+            android:name="com.example.horsekeeper.activity.TelManagerActivity"
+            >
+        </activity>
+        
+        <!--通讯大全 二级界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.TelManagerShowActivity"
+        >
+        </activity>
+        
+        <!--软件管理主界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.SoftManagerActivity"
+        >
+        </activity>
+        
+        <!--软件管理二级界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.SoftManagerShowActivity"
+        >
+        </activity>
+        
+        <!--文件管理主界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.FileManagerActivity"
+        >
+        </activity>
+        
+        <!--文件管理二级界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.FileManagerShowActivity"
+        >
+        </activity>
+       
+        <!--手机加速主界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.RocketManagerActivity"
+        >
+        </activity>
+        
+        <!--手机加速二级界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.RocketManagerShowActivity"
+        >
+        </activity>
+        
+        
+        <!--手机检测主界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.PhoneMgrActivity"
+        >
+        </activity>
+        
+        <!--手机检测主界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.CleanManagerActivity"
+        >
+        </activity>
+        
+        <!--设置界面  -->
+        <activity 
+            android:name="com.example.horsekeeper.activity.SettingActivity"
+            ></activity>
+        
+        <!--开机启动广播接收器  -->
+        <receiver 
+            android:name="com.example.horsekeeper.activity.SettingActivity$StartReceiver"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        
+    </application>
+</manifest>

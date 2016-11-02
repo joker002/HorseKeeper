@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">安卓管家测试版</string>
+    <string name="tiaoguo">直接跳出>></string>
+    
+    <string name="rocket">手机加速</string>
+    <string name="softmgr">软件管理</string>
+    <string name="phonemgr">手机检测</string>
+    <string name="telmgr">通讯大全</string>
+    <string name="filemgr">文件管理</string>
+    <string name="sdclean">垃圾清理</string>
+    
+</resources>
